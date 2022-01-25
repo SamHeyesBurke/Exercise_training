@@ -1,0 +1,79 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color:black;
+    color:white;
+}
+
+h1 {
+    color:royalblue;
+    text-align: right;
+    padding: 80px;
+    font-size:50px;
+    font-style: italic;
+}
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+.maintext {
+    text-align: center;
+}
+
+  .subheader {
+      text-align: center;
+  }
+
+  #Endurance {
+      border: solid white;
+  }
+
+  #Endurance a:hover{
+      background-color:white;
+      color: black;
+  }
+  #Resistance {
+      border: solid white;
+  }
+
+  #Resistance a:hover {
+      background-color: white;
+      color: black;
+  }
+
+  #Concurrent {
+      border: solid white;
+  }
+
+  #Concurrent a:hover {
+      background-color: white;
+      color: black;
+  }
+
+.footer {
+    border: solid red;
+}
+
+.footer ul a:hover {
+    color: red;
+    background-color: yellow;
+}
